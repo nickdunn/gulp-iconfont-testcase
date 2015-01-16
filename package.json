@@ -1,0 +1,11 @@
+{
+  "name": "gulp-iconfont-testcase",
+  "description": "Gulp Iconfont Test case",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-iconfont": "^1.0.0"
+  }
+}

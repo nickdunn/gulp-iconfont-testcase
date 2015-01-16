@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+    @font-face {
+        font-family: 'gulpicon';
+        src: url('output/myicons.eot?-tm62ak');
+        src: url('output/myicons.eot?#iefix-tm62ak') format('embedded-opentype'),
+          url('output/myicons.woff?-tm62ak') format('woff'),
+          url('output/myicons.ttf?-tm62ak') format('truetype'),
+          url('output/myicons.svg?-tm62ak#myicons') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'icomoon';
+        src: url('icomoon/nuffieldicons.eot?-tm62ak');
+        src: url('icomoon/nuffieldicons.eot?#iefix-tm62ak') format('embedded-opentype'),
+          url('icomoon/nuffieldicons.woff?-tm62ak') format('woff'),
+          url('icomoon/nuffieldicons.ttf?-tm62ak') format('truetype'),
+          url('icomoon/nuffieldicons.svg?-tm62ak#nuffieldicons') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        padding: 100px;
+      }
+
+      .icon {
+
+      }
+
+      .icon:before {
+        line-height: 0;
+        content: '\25ba';
+        line-height: 1;
+        font-size: 100px;
+        color: red;
+        border: 1px solid;
+      }
+
+      .icon--gulpicon:before {
+        font-family: 'gulpicon';
+      }
+
+      .icon--icomoon:before {
+        font-family: 'icomoon';
+      }
+
+    </style>
+  </head>
+  <body>
+    gulpicon<br>
+    <span class="icon icon--gulpicon"></span>
+
+    <br><br>icomoon<br>
+    <span class="icon icon--icomoon"></span>
+  </body>
+</html>
